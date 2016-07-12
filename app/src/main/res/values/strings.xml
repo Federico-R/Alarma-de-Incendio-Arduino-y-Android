@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SOA App Incendio</string>
+    <string name="title_activity_main">SOA - Alarma de Incendio - Lecturas</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">SOA - Alarma de Incendio - Lecturas</string>
+    <string name="title_activity_numeros_emer">Llamada de Emergencia</string>
+</resources>

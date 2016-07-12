@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.client.com.alarmaincendiofinal.Main2Activity"
+    tools:showIn="@layout/activity_main2"
+    android:background="#ffc800">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CONTROL - ALARMA DE INCENDIO"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_weight="0.04"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#fe3700"
+        android:typeface="normal" />
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textViewIp"
+        android:gravity="center_horizontal"
+        android:textColor="#217b00" />
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:id="@+id/imageViewGalileo"
+        android:background="@drawable/galileo"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lectura del Sensor:"
+        android:id="@+id/textView2"
+        android:textSize="25dp"
+        android:textColor="#fe3700"
+        android:typeface="monospace"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLectura"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_weight="0.36"
+        android:textSize="40dp"
+        android:textColor="#fe3700" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silenciar Alarma"
+        android:id="@+id/botonSilenciar"
+        android:layout_weight="0.04"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff2b00" />
+
+</LinearLayout>
